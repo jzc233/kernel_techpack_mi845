@@ -1,1 +1,2 @@
+source "techpack/mi845/input/fingerprint/Kconfig"
 source "techpack/mi845/input/touchscreen/Kconfig"
