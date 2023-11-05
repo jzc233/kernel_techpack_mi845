@@ -1,4 +1,6 @@
 menu "Touchscreen"
 	depends on INPUT_TOUCHSCREEN
 
+source "techpack/mi845/input/touchscreen/nt36xxx/Kconfig"
+
 endmenu

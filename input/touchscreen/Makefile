@@ -1,0 +1,1 @@
+obj-$(CONFIG_TOUCHSCREEN_NT36XXX) += nt36xxx/
