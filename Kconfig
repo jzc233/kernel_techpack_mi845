@@ -1,0 +1,3 @@
+if MACH_XIAOMI_E10
+source "techpack/mi845/input/Kconfig"
+endif # MACH_XIAOMI_E10
