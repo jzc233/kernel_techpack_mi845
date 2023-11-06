@@ -1,8 +1,8 @@
 menu "Audio Power Amplifier"
 	depends on SND_SOC
 
-config SND_SOC_TAS2559
-	tristate "Texas Instruments TAS2559 speaker amplifier"
+config SND_SOC_TAS2559_MAINLINE
+	tristate "Texas Instruments TAS2559 speaker amplifier from sdm845 mainline"
 	depends on I2C
 
 endmenu
