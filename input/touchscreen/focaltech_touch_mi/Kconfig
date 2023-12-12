@@ -2,7 +2,7 @@
 # Focaltech Touchscreen driver configuration
 #
 
-config TOUCHSCREEN_FTS_MI
+config TOUCHSCREEN_FTS_MI845
 	tristate "Focaltech Touchscreen"
 	depends on I2C
 	default n
