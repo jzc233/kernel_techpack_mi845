@@ -9,4 +9,13 @@ config SND_SOC_TAS2559
 	tristate "Texas Instruments TAS2559 speaker amplifier"
 	depends on I2C
 
+config SND_SOC_TAS2557_MAINLINE
+	tristate "Texas Instruments TAS2557 speaker amplifier from sdm845 mainline"
+	depends on I2C
+
+config SND_SOC_TAS2557
+	tristate "Texas Instruments TAS2557 speaker amplifier"
+	depends on I2C
+
+
 endmenu
